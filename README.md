@@ -143,7 +143,7 @@
 
 
 
-# ``Today, Netflix is the 10th largest Internet company in the world. Are you aware that during the peak traffic hours more than one-third of North American Internet traffic goes through Netflix’s systems? ‘Supporting such rapid growth would have been extremely difficult out of our own data centers; we simply could not have racked the servers fast enough,’ Netflix’s blog post says. It continues, ‘Elasticity of the cloud allows us to add thousands of virtual servers and petabytes of storage within minutes, making such an expansion possible.’ So, that is the power of Amazon Web Services propelling one of the most ambitious companies on earth, Netflix, into uncharted territory and runaway success! ``
+## ``Today, Netflix is the 10th largest Internet company in the world. Are you aware that during the peak traffic hours more than one-third of North American Internet traffic goes through Netflix’s systems? ‘Supporting such rapid growth would have been extremely difficult out of our own data centers; we simply could not have racked the servers fast enough,’ Netflix’s blog post says. It continues, ‘Elasticity of the cloud allows us to add thousands of virtual servers and petabytes of storage within minutes, making such an expansion possible.’ So, that is the power of Amazon Web Services propelling one of the most ambitious companies on earth, Netflix, into uncharted territory and runaway success! ``
 
 ## Thus, AWS cloud provides Netflix a fully Reliable and Agile service being a service provider cloud computing company.
 

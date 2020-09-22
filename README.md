@@ -142,10 +142,11 @@ The scalability of Amazon Kinesis Data Streams was a good fit for the Dredge app
 ## Although a streaming data solution is not new to the IT industry, it is an innovation in the networking space. “Netflix is heavily invested in AWS in part because it abstracts the underlying network, so we don’t have to deal with switches and routers,” says Bennett. “We’re monitoring, analyzing, and optimizing at a higher level of the stack—in ways we would never even consider if we were running our own data centers.”
 
 
-#  ` 
-Today, Netflix is the 10th largest Internet company in the world. Are you aware that during the peak traffic hours more than one-third of North American Internet traffic goes through Netflix’s systems? ‘Supporting such rapid growth would have been extremely difficult out of our own data centers; we simply could not have racked the servers fast enough,’ Netflix’s blog post says. It continues, ‘Elasticity of the cloud allows us to add thousands of virtual servers and petabytes of storage within minutes, making such an expansion possible.’ So, that is the power of Amazon Web Services propelling one of the most ambitious companies on earth, Netflix, into uncharted territory and runaway success!
-Thus, AWS cloud provides Netflix a fully Reliable and Agile service being a service provider cloud computing company.
-`
+
+# `Today, Netflix is the 10th largest Internet company in the world. Are you aware that during the peak traffic hours more than one-third of North American Internet traffic goes through Netflix’s systems? ‘Supporting such rapid growth would have been extremely difficult out of our own data centers; we simply could not have racked the servers fast enough,’ Netflix’s blog post says. It continues, ‘Elasticity of the cloud allows us to add thousands of virtual servers and petabytes of storage within minutes, making such an expansion possible.’ So, that is the power of Amazon Web Services propelling one of the most ambitious companies on earth, Netflix, into uncharted territory and runaway success! `
+
+## Thus, AWS cloud provides Netflix a fully Reliable and Agile service being a service provider cloud computing company.
+
 
 
 

@@ -10,7 +10,9 @@
 
 ## Netflix, Inc. is an American technology and media services provider and production company headquartered in Los Gatos, California. Netflix was founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California. The company's primary business is its subscription-based streaming service which offers online streaming of a library of films and television series, including those produced in-house. As of April 2020, Netflix had over 193 million paid subscriptions worldwide, including 73 million in the United States. Today, the company produces and distributes content from countries all over the globe.
 
-## Netflix offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week! Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+`
+Netflix offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week! Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+`
 
 # How much does it cost?
 
@@ -46,9 +48,10 @@
 
 # Netflix uses AWS for nearly all its computing and storage needs, including databases, analytics, recommendation engines, video transcoding, and more—hundreds of functions that in total use more than 100,000 server instances on AWS.
 
-## Netflix has a fabulous team working on cloud and containers. Netflix started its migration towards AWS around in 2008 and it was a really long process. AWS brings highly scalable, elastic and secure cloud services to content production, storage, processing, and distribution. And with Machine Learning and Analytics embedded throughout the media value chain, you can make smarter content investments, better monetize your content library, and delight users with personalized experiences. 
+` Netflix has a fabulous team working on cloud and containers. Netflix started its migration towards AWS around in 2008 and it was a really long process. AWS brings highly scalable, elastic and secure cloud services to content production, storage, processing, and distribution. And with Machine Learning and Analytics embedded throughout the media value chain, you can make smarter content investments, better monetize your content library, and delight users with personalized experiences. 
 
-## Microservice Architecture: Netflix while using AWS became more agile with the help of Decoupled applications and continuous deployment model. More agility resulted in faster innovation. Also, they built a diverse ecosystem of tools that included Spinnaker, Chaos engineering and Global cloud.
+ Microservice Architecture: Netflix while using AWS became more agile with the help of Decoupled applications and continuous deployment model. More agility resulted in faster innovation. Also, they built a diverse ecosystem of tools that included Spinnaker, Chaos engineering and Global cloud.
+`
 
 ![image](https://user-images.githubusercontent.com/61896468/93880748-967d3400-fcfb-11ea-8eb8-f308b0d00f0c.png) 
 
@@ -67,7 +70,9 @@
 
 ## Before a video gets delivered to him/her, operations like searching for videos and signing up by the user for the service are all handled in AWS cloud. Hence, the business logic, personalization, search, and data processing which gives the streaming experience are all live in AWS. The technology had to maintain Netflix’s employees who were working in streaming business, and this was also housed in Amazon.
 
-## Now one more question that sparks our minds, that is : Do you know why Netflix took seven years to shift to Amazon? They rebuilt their entire software platform to leverage AWS cloud network to the maximum. ‘Chaos Monkey’ is a series of tools developed by Netflix to reduce damage in the case of disruptions. On the Christmas Eve of 2012, the company suffered a streaming failure and at the time it was on a single Amazon region. Since then, they have invested heavily in disaster recovery. Now, Netflix mainly operates in Oregon, Northern Virginia, and Dublin regions. What if one of these regions goes down? In this case, Netflix redirects the traffic to other available regions within a moment’s notice. The company has enough backups of all data which is stored in Amazon itself.
+``
+Now one more question that sparks our minds, that is : Do you know why Netflix took seven years to shift to Amazon? They rebuilt their entire software platform to leverage AWS cloud network to the maximum. ‘Chaos Monkey’ is a series of tools developed by Netflix to reduce damage in the case of disruptions. On the Christmas Eve of 2012, the company suffered a streaming failure and at the time it was on a single Amazon region. Since then, they have invested heavily in disaster recovery. Now, Netflix mainly operates in Oregon, Northern Virginia, and Dublin regions. What if one of these regions goes down? In this case, Netflix redirects the traffic to other available regions within a moment’s notice. The company has enough backups of all data which is stored in Amazon itself.
+``
 
 # The distributed database, Cassandra is chosen to store customer data where every data element is replicated many times in production. The primary backups of all data are generated into S3 (Simple Storage Service). Any kind of operator errors, logical errors, software bugs, or other such corruptions can be dealt with by the S3 backups. ‘Armageddon Monkey’ is Netflix’s attempt to recover from failures of all its systems on AWS.
 
@@ -84,7 +89,8 @@
 
 ## What happens when you need to move 89 million viewers to a different AWS region? Netflix's infrastructure, built on AWS, makes it possible to be extremely resilient, even when the company is running services in many AWS Regions simultaneously. In this episode of This is My Architecture, Coburn Watson, director of performance and reliability engineering at Netflix, walks through the company's DNS architecture—built on Amazon Route 53 and augmented with Netflix's Zuul—that allows the team to evacuate an entire region in less than 40 minutes.
 
-# John Bennett who is a Senior Software Engineer at Netflix says -
+` John Bennett who is a Senior Software Engineer at Netflix says -
+`
 
 # "Amazon Kinesis Data Streams processes multiple terabytes of log data each day, yet events show up in our analytics in seconds. We can discover and respond to issues in real time, ensuring high availability and a great customer experience."
 
@@ -92,7 +98,9 @@
 
 ## Netflix uses Amazon Web Services (AWS) for nearly all its computing and storage needs, including databases, analytics, recommendation engines, video transcoding, and more—hundreds of functions that in total use more than 100,000 server instances on AWS.
 
-## This results in an extremely complex and dynamic networking environment where applications are constantly communicating inside AWS and across the Internet. Monitoring and optimizing its network is critical for Netflix to continue improving customer experience, increasing efficiency, and reducing costs. In particular, Netflix needed a solution for ingesting, augmenting, and analyzing the multiple terabytes of data its network generates daily in the form of virtual private cloud (VPC) flow logs. This would enable Netflix to identify performance-improvement opportunities, such as identifying apps that are communicating across regions and collocating them. The company would also be able to increase uptime by quickly detecting and mitigating application downtime.
+`
+This results in an extremely complex and dynamic networking environment where applications are constantly communicating inside AWS and across the Internet. Monitoring and optimizing its network is critical for Netflix to continue improving customer experience, increasing efficiency, and reducing costs. In particular, Netflix needed a solution for ingesting, augmenting, and analyzing the multiple terabytes of data its network generates daily in the form of virtual private cloud (VPC) flow logs. This would enable Netflix to identify performance-improvement opportunities, such as identifying apps that are communicating across regions and collocating them. The company would also be able to increase uptime by quickly detecting and mitigating application downtime.
+`
 
 ## Each log record carries information about the communications between two IP addresses. However, in a dynamic environment like the one at Netflix, where an IP address can float between applications from day to day or even minute to minute, IP addresses alone don’t have much meaning. “The data sources we had before we took on this initiative were one sided,” says John Bennett, senior software engineer at Netflix. “We’d know an application was connecting to others, but we didn’t know both sides of the conversation and how to optimize those communications or the placement of the applications on the network.”
 
@@ -109,9 +117,11 @@
 
 ## From the outset, AWS enabled Netflix to experiment with different approaches to analyzing its network data. “Early in the design process, the flexibility to try different ways of processing the data was important,” says Bennett. “We experimented with multiple designs and used many AWS products to get here.”
 
-## The solution Netflix ultimately deployed—known internally as Dredge—centralizes flow logs using Amazon Kinesis Data Streams. The application reads the data from Amazon Kinesis Data Streams in real time and enriches IP addresses with application metadata to provide a full picture of the networking environment. “Usually, we would put the data into a database, which would build an index to enable faster querying,” says Bennett. “Dredge joins the flow logs with application metadata as it streams and indexes it without using a database, which eliminates a lot of the complexity.”
+`
+The solution Netflix ultimately deployed—known internally as Dredge—centralizes flow logs using Amazon Kinesis Data Streams. The application reads the data from Amazon Kinesis Data Streams in real time and enriches IP addresses with application metadata to provide a full picture of the networking environment. “Usually, we would put the data into a database, which would build an index to enable faster querying,” says Bennett. “Dredge joins the flow logs with application metadata as it streams and indexes it without using a database, which eliminates a lot of the complexity.”
+`
 
-## The enriched data lands in an open-source analytics application called Druid. Netflix uses the OLAP querying functionality of Druid to quickly slice data into regions, availability zones, and time windows to visualize it and gain insight into how the network is behaving and performing.
+##  The enriched data lands in an open-source analytics application called Druid. Netflix uses the OLAP querying functionality of Druid to quickly slice data into regions, availability zones, and time windows to visualize it and gain insight into how the network is behaving and performing.
 
 `
 AWS was the logical choice for Dredge in part because the data was already resident in the AWS Cloud. “It would have been daunting to publish, stream, and consume that much information from an external system such as Kafka,” says Bennett. “It took just a few API calls to centralize multiple terabytes of flow logs into Amazon Kinesis Data Streams. Now we can focus on getting insights from the data rather than simply getting access to it.”
@@ -124,8 +134,9 @@ The scalability of Amazon Kinesis Data Streams was a good fit for the Dredge app
 # Improving Customer Experience with Real-Time Network Monitoring
 
 ## Netflix’s Amazon Kinesis Data Streams-based solution has proven to be highly scalable, each day processing billions of traffic flows. Typically, about 1,000 Amazon Kinesis shards work in parallel to process the data stream. “Amazon Kinesis Data Streams processes multiple terabytes of log data each day, yet events show up in our analytics in seconds,” says Bennett. “We can discover and respond to issues in real time, ensuring high availability and a great customer experience.”
-
-## Netflix is now able to identify new ways to optimize its applications, whether that means moving an application from one region to another or changing to a more appropriate network protocol for a specific type of traffic. “Our solution built on Amazon Kinesis enables us to identify ways to increase efficiency, reduce costs, and improve resiliency for the best customer experience,” says Bennett.
+`
+ Netflix is now able to identify new ways to optimize its applications, whether that means moving an application from one region to another or changing to a more appropriate network protocol for a specific type of traffic. “Our solution built on Amazon Kinesis enables us to identify ways to increase efficiency, reduce costs, and improve resiliency for the best customer experience,” says Bennett.
+`
 
 ## Although a streaming data solution is not new to the IT industry, it is an innovation in the networking space. “Netflix is heavily invested in AWS in part because it abstracts the underlying network, so we don’t have to deal with switches and routers,” says Bennett. “We’re monitoring, analyzing, and optimizing at a higher level of the stack—in ways we would never even consider if we were running our own data centers.”
 

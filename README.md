@@ -48,10 +48,10 @@
 
 # Netflix uses AWS for nearly all its computing and storage needs, including databases, analytics, recommendation engines, video transcoding, and more—hundreds of functions that in total use more than 100,000 server instances on AWS.
 
-` Netflix has a fabulous team working on cloud and containers. Netflix started its migration towards AWS around in 2008 and it was a really long process. AWS brings highly scalable, elastic and secure cloud services to content production, storage, processing, and distribution. And with Machine Learning and Analytics embedded throughout the media value chain, you can make smarter content investments, better monetize your content library, and delight users with personalized experiences. 
+## `` Netflix has a fabulous team working on cloud and containers. Netflix started its migration towards AWS around in 2008 and it was a really long process. AWS brings highly scalable, elastic and secure cloud services to content production, storage, processing, and distribution. And with Machine Learning and Analytics embedded throughout the media value chain, you can make smarter content investments, better monetize your content library, and delight users with personalized experiences.`` 
 
- Microservice Architecture: Netflix while using AWS became more agile with the help of Decoupled applications and continuous deployment model. More agility resulted in faster innovation. Also, they built a diverse ecosystem of tools that included Spinnaker, Chaos engineering and Global cloud.
-`
+##  ` Microservice Architecture: Netflix while using AWS became more agile with the help of Decoupled applications and continuous deployment model. More agility resulted in faster innovation. Also, they built a diverse ecosystem of tools that included Spinnaker, Chaos engineering and Global cloud. `
+
 
 ![image](https://user-images.githubusercontent.com/61896468/93880748-967d3400-fcfb-11ea-8eb8-f308b0d00f0c.png) 
 

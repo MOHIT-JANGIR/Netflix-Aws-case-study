@@ -113,10 +113,13 @@
 
 ## The enriched data lands in an open-source analytics application called Druid. Netflix uses the OLAP querying functionality of Druid to quickly slice data into regions, availability zones, and time windows to visualize it and gain insight into how the network is behaving and performing.
 
-` AWS was the logical choice for Dredge in part because the data was already resident in the AWS Cloud. “It would have been daunting to publish, stream, and consume that much information from an external system such as Kafka,” says Bennett. “It took just a few API calls to centralize multiple terabytes of flow logs into Amazon Kinesis Data Streams. Now we can focus on getting insights from the data rather than simply getting access to it.”
+`
+AWS was the logical choice for Dredge in part because the data was already resident in the AWS Cloud. “It would have been daunting to publish, stream, and consume that much information from an external system such as Kafka,” says Bennett. “It took just a few API calls to centralize multiple terabytes of flow logs into Amazon Kinesis Data Streams. Now we can focus on getting insights from the data rather than simply getting access to it.”
 
 The scalability of Amazon Kinesis Data Streams was a good fit for the Dredge application because of the cyclical and elastic nature of network usage at Netflix.
+
 `
+
 
 # Improving Customer Experience with Real-Time Network Monitoring
 
@@ -126,11 +129,11 @@ The scalability of Amazon Kinesis Data Streams was a good fit for the Dredge app
 
 ## Although a streaming data solution is not new to the IT industry, it is an innovation in the networking space. “Netflix is heavily invested in AWS in part because it abstracts the underlying network, so we don’t have to deal with switches and routers,” says Bennett. “We’re monitoring, analyzing, and optimizing at a higher level of the stack—in ways we would never even consider if we were running our own data centers.”
 
-```
+`
 Today, Netflix is the 10th largest Internet company in the world. Are you aware that during the peak traffic hours more than one-third of North American Internet traffic goes through Netflix’s systems? ‘Supporting such rapid growth would have been extremely difficult out of our own data centers; we simply could not have racked the servers fast enough,’ Netflix’s blog post says. It continues, ‘Elasticity of the cloud allows us to add thousands of virtual servers and petabytes of storage within minutes, making such an expansion possible.’ So, that is the power of Amazon Web Services propelling one of the most ambitious companies on earth, Netflix, into uncharted territory and runaway success!
 Thus, AWS cloud provides Netflix a fully Reliable and Agile service being a service provider cloud computing company.
 
 
-```
+`
 
 # And so the users of Netflix never ever face a delay of even 1 seconds.

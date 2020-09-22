@@ -134,9 +134,10 @@ The scalability of Amazon Kinesis Data Streams was a good fit for the Dredge app
 # Improving Customer Experience with Real-Time Network Monitoring
 
 ## Netflix’s Amazon Kinesis Data Streams-based solution has proven to be highly scalable, each day processing billions of traffic flows. Typically, about 1,000 Amazon Kinesis shards work in parallel to process the data stream. “Amazon Kinesis Data Streams processes multiple terabytes of log data each day, yet events show up in our analytics in seconds,” says Bennett. “We can discover and respond to issues in real time, ensuring high availability and a great customer experience.”
-`
- Netflix is now able to identify new ways to optimize its applications, whether that means moving an application from one region to another or changing to a more appropriate network protocol for a specific type of traffic. “Our solution built on Amazon Kinesis enables us to identify ways to increase efficiency, reduce costs, and improve resiliency for the best customer experience,” says Bennett.
-`
+
+##  `Netflix is now able to identify new ways to optimize its applications, whether that means moving an application from one region to another or changing to a more appropriate network protocol for a specific type of traffic. “Our solution built on Amazon Kinesis enables us to identify ways to increase efficiency, reduce costs, and improve resiliency for the best customer experience,” says Bennett.`
+
+
 
 ## Although a streaming data solution is not new to the IT industry, it is an innovation in the networking space. “Netflix is heavily invested in AWS in part because it abstracts the underlying network, so we don’t have to deal with switches and routers,” says Bennett. “We’re monitoring, analyzing, and optimizing at a higher level of the stack—in ways we would never even consider if we were running our own data centers.”
 

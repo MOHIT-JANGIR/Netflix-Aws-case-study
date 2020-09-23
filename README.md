@@ -151,3 +151,8 @@
 
 
 # And so the users of Netflix never ever face a delay of even 1 seconds.
+
+![image](https://user-images.githubusercontent.com/61896468/93995627-e36e1280-fdae-11ea-8b4b-9d550e09863d.png)
+
+
+![image](https://user-images.githubusercontent.com/61896468/93995883-2f20bc00-fdaf-11ea-9051-10288609dd43.png)
